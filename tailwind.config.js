@@ -3,21 +3,27 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "300px",
+        md: "786px",
+        lg: "976px",
+        xl: "1300px",
+      },
       colors: {
         aliceblue: "#dde9ef",
         darkslateblue: "#1e3366",
         white: "#fff",
         lawngreen: "#5de410",
         limegreen: {
-          "100": "#5ecb20",
-          "200": "#5cc521",
-          "300": "#29b000",
+          100: "#5ecb20",
+          200: "#5cc521",
+          300: "#29b000",
         },
         dimgray: {
-          "100": "#6b767b",
-          "200": "#6b7869",
-          "300": "#5f6867",
-          "400": "#4d4a4a",
+          100: "#6b767b",
+          200: "#6b7869",
+          300: "#5f6867",
+          400: "#4d4a4a",
         },
         gainsboro: "#dfe9e1",
         black: "#000",
@@ -25,8 +31,8 @@ module.exports = {
         whitesmoke: "#ebf2f3",
         lightgreen: "#6fc157",
         forestgreen: {
-          "100": "#3d8f24",
-          "200": "rgba(61, 143, 36, 0.09)",
+          100: "#3d8f24",
+          200: "rgba(61, 143, 36, 0.09)",
         },
         greenyellow: "#c9fa27",
         yellowgreen: "#d8dc52",

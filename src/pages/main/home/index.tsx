@@ -1,49 +1,28 @@
 import { FunctionComponent } from "react";
-import Navbar from "../components/Navbar";
-import FrameComponent5 from "../components/FrameComponent5";
-import FrameComponent4 from "../components/FrameComponent4";
-import ArrayTraversal from "../components/ArrayTraversal";
-import TrigonometricFunctions from "../components/TrigonometricFunctions";
-import BloomFilter from "../components/BloomFilter";
-import FrameComponent3 from "../components/FrameComponent3";
-import ShapeClusterer from "../components/ShapeClusterer";
-import DataProcessor from "../components/DataProcessor";
-import FrameComponent1 from "../components/FrameComponent1";
-import ColorPicker from "../components/ColorPicker";
-import FrameComponent from "../components/FrameComponent";
-import Footer from "../components/Footer";
+import FrameComponent4 from "../../../components/FrameComponent4";
+import ArrayTraversal from "../../../components/ArrayTraversal";
+import TrigonometricFunctions from "../../../components/TrigonometricFunctions";
+import BloomFilter from "../../../components/BloomFilter";
+import FrameComponent3 from "../../../components/FrameComponent3";
+import ShapeClusterer from "../../../components/ShapeClusterer";
+import DataProcessor from "../../../components/DataProcessor";
+import FrameComponent1 from "../../../components/FrameComponent1";
+import ColorPicker from "../../../components/ColorPicker";
+import FrameComponent from "../../../components/FrameComponent";
+import Footer from "../../../components/Footer";
+import NavbarPage from "../layout/header/navbar";
+import IntroPage from "../layout/header/intro";
 
 const Vividmind: FunctionComponent = () => {
   return (
     <div className="w-full relative bg-aliceblue overflow-hidden flex flex-col items-end justify-start gap-[10px] tracking-[normal] text-center text-31xl text-black font-montserrat">
       <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[94px] box-border max-w-full mq450:pb-10 mq450:box-border mq750:pb-[61px] mq750:box-border">
-        <Navbar />
-        <FrameComponent5 />
+        <NavbarPage />
+        <IntroPage />
       </section>
-      <div className="w-[1020px] h-[86px] relative hidden max-w-full">
-        <b className="absolute h-full top-[0px] left-[calc(50%_-_343px)] inline-block w-[686px] mq450:text-11xl mq750:text-21xl">
-          <span className="whitespace-pre-wrap">{`Interactions  `}</span>
-          <span className="text-lightgreen">des visiteurs</span>
-        </b>
-        <img
-          className="absolute top-[26px] left-[49px] w-[100px] h-[0.6px] object-contain"
-          alt=""
-        />
-        <img
-          className="absolute top-[46px] left-[0px] w-[150px] h-[0.9px] object-contain"
-          alt=""
-        />
-        <img
-          className="absolute top-[26px] left-[971px] w-[100px] h-[0.6px] object-contain"
-          alt=""
-        />
-        <img
-          className="absolute top-[46px] left-[1020px] w-[150px] h-[0.9px] object-contain"
-          alt=""
-        />
-      </div>
-      <div className="w-[571px] h-[297px] relative box-border hidden max-w-full border-[2px] border-solid border-darkslateblue" />
-      <div className="w-[571px] h-[297px] relative box-border hidden max-w-full border-[2px] border-solid border-darkslateblue" />
+
+      {/* <div className="w-[571px] h-[297px] relative box-border hidden max-w-full border-[2px] border-solid border-darkslateblue" />
+      <div className="w-[571px] h-[297px] relative box-border hidden max-w-full border-[2px] border-solid border-darkslateblue" /> */}
       <FrameComponent4 />
       <ArrayTraversal />
       <TrigonometricFunctions />

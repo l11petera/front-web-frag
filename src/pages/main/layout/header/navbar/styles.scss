@@ -1,0 +1,71 @@
+.vivid {
+  margin-right: 208px;
+}
+.connecter {
+  margin-left: 256px;
+}
+.accueil {
+  padding: 0;
+}
+.propos {
+  padding: 0;
+}
+.projets {
+  padding: 0;
+}
+.teams {
+  padding: 0;
+}
+.contact {
+  padding: 0;
+}
+@media screen and (max-width: 1300px) {
+  .vivid {
+    margin-right: 208px;
+  }
+  .connecter {
+    margin-left: 256px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .vivid {
+    margin-right: 100px;
+  }
+  .connecter {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .vivid {
+    margin-right: 50px;
+  }
+  .connecter {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .accueil {
+    display: none;
+  }
+  .propos {
+    display: none;
+  }
+  .projets {
+    display: none;
+  }
+  .teams {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .vivid {
+    margin-right: 5px;
+  }
+  .connecter {
+    margin-left: 5px;
+  }
+}

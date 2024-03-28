@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Vividmind from "./pages/Vividmind";
+import Vividmind from "./pages/main/home";
 
 function App() {
   const action = useNavigationType();

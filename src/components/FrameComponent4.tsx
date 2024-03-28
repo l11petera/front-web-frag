@@ -65,6 +65,7 @@ const FrameComponent4: FunctionComponent = () => {
             </div>
           </div>
         </div>
+
         <NetworkInterface
           hTTPClient="pending_53:398"
           tCPServer="pending_53:399"
@@ -74,7 +75,7 @@ const FrameComponent4: FunctionComponent = () => {
           line4="pending_53:401"
         />
       </div>
-      <div className="h-[58px] w-[1345px] absolute !m-[0] bottom-[55px] left-[-17px] text-lg leading-[27px] font-medium font-barlow inline-block z-[1]">
+      <div className="h-[58px]  absolute  bottom-[55px]  text-lg  font-medium font-barlow inline-block z-[1]">
         <p className="m-0">
           Bienvenue chez VividMind, votre partenaire innovant en solutions
           technologiques. Née de la passion pour la technologie et l'innovation,
