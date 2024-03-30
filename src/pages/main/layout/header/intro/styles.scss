@@ -1,0 +1,116 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.intro1 .title h1 {
+  font-size: 80px;
+}
+@media (max-width: 300px) {
+  .intro1 {
+    margin-bottom: -220px;
+  }
+  .intro1 .title h1 {
+    padding-left: 60px;
+    margin-top: -120px;
+    font-size: 18px;
+  }
+  .intro1 .title h2 {
+    padding-left: 60px;
+    font-size: 16px;
+  }
+  .intro1 .title p {
+    padding-left: 60px;
+    font-size: 14px;
+  }
+  .intro1 .title button {
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .intro1 {
+    margin-bottom: -200px;
+  }
+  .intro1 {
+    margin-bottom: -120px;
+  }
+  .intro1 .title h1 {
+    padding-left: 60px;
+    margin-top: -120px;
+    font-size: 27px;
+  }
+  .intro1 .title h2 {
+    padding-left: 60px;
+    font-size: 25px;
+  }
+  .intro1 .title p {
+    padding-left: 60px;
+    font-size: 18px;
+  }
+  .intro1 .title button {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  .intro1 {
+    margin-bottom: -120px;
+  }
+  .intro1 .title h1 {
+    padding-left: 100px;
+    margin-top: -100px;
+    font-size: 37px;
+  }
+  .intro1 .title h2 {
+    padding-left: 100px;
+    font-size: 34px;
+  }
+  .intro1 .title p {
+    padding-left: 100px;
+    font-size: 22px;
+  }
+  .intro1 .title button {
+    margin-left: 100px;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .intro1 {
+    margin-bottom: -120px;
+  }
+  .intro1 .title h1 {
+    padding-left: 150px;
+    margin-top: -80px;
+    font-size: 45px;
+  }
+  .intro1 .title h2 {
+    padding-left: 150px;
+    font-size: 37px;
+  }
+  .intro1 .title p {
+    padding-left: 150px;
+    font-size: 22px;
+  }
+  .intro1 .title button {
+    margin-left: 150px;
+  }
+}
+@media (min-width: 900px) {
+  .intro {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .intro1 .title h1 {
+    padding-left: 150px;
+    margin-top: -120px;
+    font-size: 45px;
+  }
+  .intro1 .title h2 {
+    padding-left: 150px;
+    font-size: 37px;
+  }
+  .intro1 .title p {
+    padding-left: 150px;
+    font-size: 22px;
+  }
+  .intro1 .title button {
+    margin-left: 150px;
+  }
+}

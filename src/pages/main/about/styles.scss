@@ -1,0 +1,72 @@
+.card1 {
+  background-image: url("../../../assets/images/wepik-export-20240330065257Nxu4.jpeg");
+  border-radius: 20px;
+}
+.card2 {
+  background-image: url("../../../assets/images/wepik-export-20240330065726f819.jpeg");
+  border-radius: 20px;
+}
+.card3 {
+  background-image: url("../../../assets/images/wepik-export-20240330065633sSil.jpeg");
+  border-radius: 20px;
+}
+.card4 {
+  background-image: url("../../../assets/images/wepik-export-202403300659112i7h.jpeg");
+  border-radius: 20px;
+}
+@media screen and (max-width: 540px) {
+  .about {
+    display: none;
+  }
+  .cercle {
+    display: none;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .about {
+    display: grid;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 490px;
+  }
+  .cercle {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about {
+    position: relative;
+    height: 29.8rem;
+    width: 100%;
+  }
+  .card1 {
+    position: absolute;
+    left: 9.5rem;
+  }
+  .card2 {
+    position: absolute;
+    left: 43.5rem;
+    top: 0rem;
+    height: 13.8rem;
+  }
+  .card3 {
+    position: absolute;
+    left: 9.5rem;
+    top: 16rem;
+  }
+  .card4 {
+    position: absolute;
+    left: 43.5rem;
+    top: 16rem;
+    height: 13.8rem;
+  }
+  .cercle {
+    position: absolute;
+    top: 10.75rem;
+    left: 38.25rem;
+    width: 8rem;
+  }
+}

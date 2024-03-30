@@ -1,21 +1,10 @@
 import { FunctionComponent } from "react";
-import NetworkInterface from "./NetworkInterface";
+import NetworkInterface from "../pages/main/about";
 import FrameComponent2 from "./FrameComponent2";
 
 const ShapeClusterer: FunctionComponent = () => {
   return (
     <div className="self-stretch flex flex-col items-start justify-start gap-[83.30000000000018px] max-w-full text-left text-41xl text-black font-montserrat mq450:gap-[21px_83.3px] mq750:gap-[42px_83.3px]">
-      <NetworkInterface
-        hTTPClient="pending_58:4"
-        tCPServer="pending_58:5"
-        propos="Notre  "
-        deNous="équipe"
-        line3="pending_58:6"
-        line4="pending_58:7"
-        propWidth="unset"
-        propAlignSelf="stretch"
-        propMinWidth="281px"
-      />
       <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[13px] max-w-full">
         <div className="flex-1 flex flex-col items-start justify-start gap-[36.80000000000018px] min-w-[454px] max-w-full mq750:gap-[18px_36.8px] mq750:min-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-[24.699999999999815px] max-w-full">

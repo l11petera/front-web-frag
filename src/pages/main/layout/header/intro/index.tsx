@@ -1,9 +1,10 @@
 import { FunctionComponent } from "react";
+import "./styles.scss";
 
 const IntroPage: FunctionComponent = () => {
   return (
-    <section className="grid gap-8 md:grid-cols-2 sm:grid-cols-1 self-stretch bg-lightgray text-left text-29xl text-black font-barlow ">
-      <div className="w-full h-[540px]  max-w-full ">
+    <section className="intro self-stretch bg-lightgray text-left text-29xl text-black font-barlow mb-5">
+      <div className="intro1 w-full h-[540px]  max-w-full ">
         <div>
           <img
             className="w-[64.7px] h-[86px] z-[3]"
@@ -37,28 +38,29 @@ const IntroPage: FunctionComponent = () => {
             </a>
           </div>
         </div>
-        <div className="pl-20 text-inherit text-left -mt-40">
-          <h1 className=" py-3 sm:py-0 text-inherit font-bold font-inherit w-full sm:w-full">
-            <span className="whitespace-pre-wrap">Bienvenue chez Vivid</span>
+        <div className="title">
+          <h1 className="">
+            <span className="">Bienvenue chez Vivid</span>
             <span className="text-lawngreen">Mind</span>
           </h1>
-          <h2 className="m-0 py-0 flex-1  text-17xl font-bold font-inherit inline-block max-w-full z-[4] ">
+          <h2 className="">
             <span>{`“Let’s make `}</span>
             <span className="text-lawngreen">!T</span>
             <span> happen”</span>
           </h2>
-          <div className="w-[546.5px] flex flex-row items-start justify-start py-0 pr-0.5 pl-[1.900000000000034px] box-border max-w-full mt-[-14px] text-justify text-lg">
-            <div className="py-8 flex-1 relative font-medium whitespace-pre-wrap inline-block max-w-full z-[3]">{`Votre  partenaire de confiance dans le monde numérique en constante évolution. `}</div>
-          </div>
-          <div className="max-w-full">
-            <button className="cursor-pointer [border:none]  px-[66px] py-3 font-barlow font-bold text-xl text-white bg-lawngreen w-[254.5px] rounded-lg flex flex-row items-start justify-start box-border whitespace-nowrap z-[3] hover:bg-limegreen-300 mq450:pl-5 mq450:pr-5 mq450:box-border">
-              En savoir plus
-            </button>
-          </div>
+
+          <p>
+            Votre partenaire de confiance dans le monde numérique en constante
+            évolution.
+          </p>
+
+          <button className="cursor-pointer rounded-lg  px-10 py-2.5 font-barlow font-bold text-xl text-white bg-lawngreen  hover:bg-limegreen-300">
+            En savoir plus
+          </button>
         </div>
       </div>
 
-      <div className="w-full flex justify-center">
+      <div className="intro2 w-full flex justify-center">
         {/* <img className="w-[143px] h-[66px]" alt="" src="/pt-boules-1@2x.png" /> */}
         <img
           className="w-full  max-w-full h-auto sm:w-auto sm:max-w-auto sm:h-full md:w-[100%] md:max-w-[640px] md:h-[540px]"

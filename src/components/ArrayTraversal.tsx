@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
 import Philo from "./Philo";
-import NetworkInterface from "./NetworkInterface";
 
 const ArrayTraversal: FunctionComponent = () => {
   return (
