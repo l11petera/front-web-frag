@@ -25,7 +25,7 @@ const Vividmind: FunctionComponent = () => {
       <InteractionPage />
       <AboutPage />
       <ServicesPages />
-      {/* <div className="w-[267px] h-[205px] relative hidden">
+      <div className="w-[267px] h-[205px] relative hidden">
         <img
           className="absolute h-full top-[0px] bottom-[0px] left-[0px] max-h-full w-[237px]"
           alt=""
@@ -40,7 +40,7 @@ const Vividmind: FunctionComponent = () => {
           <DataProcessor />
         </div>
       </section>
-      <section className="self-stretch flex flex-row items-start justify-end py-0 pr-[59px] pl-[65px] box-border max-w-full mq750:pl-8 mq750:pr-[29px] mq750:box-border">
+      {/* <section className="self-stretch flex flex-row items-start justify-end py-0 pr-[59px] pl-[65px] box-border max-w-full mq750:pl-8 mq750:pr-[29px] mq750:box-border">
         <div className="flex-1 flex flex-col items-end justify-start gap-[87px] max-w-full mq450:gap-[22px_87px] mq750:gap-[43px_87px]">
           <FrameComponent1 />
           <ColorPicker />
