@@ -9,8 +9,29 @@ import { TECarousel, TECarouselItem } from "tw-elements-react";
 function ServicesPages() {
   return (
     <section className="">
-      <div className="items-center ">
-        <img src="/Line 1.png" alt="" className="w-24" />
+      <div className="items-center relative">
+        <div>
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-28 h-1 absolute top-2 left-96"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-44 h-1 absolute top-8 left-80"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-28 h-1 absolute top-2 right-96"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-44 h-1 absolute top-8 right-80"
+          />
+        </div>
         <h1 className="text-[40px] text-center">
           Nos <span className="text-lawngreen">services</span>
         </h1>

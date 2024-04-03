@@ -4,8 +4,29 @@ import "./styles.scss";
 function AboutPage() {
   return (
     <div className="">
-      <div className="items-center">
-        <img src="../../../assets/images/Line 1.png" alt="" className="w-96" />
+      <div className="items-center relative">
+        <div>
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-28 h-1 absolute top-2 left-[350px]"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-44 h-1 absolute top-8 left-[287px]"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-28 h-1 absolute top-2 right-[350px]"
+          />
+          <img
+            src="/Line 1.png"
+            alt=""
+            className="w-44 h-1 absolute top-8 right-[287px]"
+          />
+        </div>
         <h1 className="text-[40px] text-center">
           À propos <span className="text-lawngreen">de nous</span>
         </h1>
